@@ -7,7 +7,6 @@ using WebTesteUVA.Models;
 namespace WebTesteUVA.Migrations
 {
     [DbContext(typeof(Context))]
-    //Classe responsável por implementar o CRUD da entidade User.
     partial class ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
